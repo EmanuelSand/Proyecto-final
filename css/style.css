@@ -210,13 +210,41 @@ h6 {
   z-index: 1; }
 
 .ImagenDemos {
-  text-align: center; }
+  align-items: center; }
 
 .Info {
   text-align: center; }
 
 .contenedor-info-fluid {
   text-align: center; }
+
+.Envios {
+  border: 1px solid;
+  padding: 5px;
+  margin: 30px 30px 30px 100px;
+  max-width: 430px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 2px rgba(0, 0, 0, 0.2); }
+
+.EnviosText {
+  padding: 10px;
+  max-width: 450px; }
+
+.Retiros {
+  border: 1px solid;
+  padding: 5px;
+  margin: 30px 30px 30px 100px;
+  max-width: 430px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 2px rgba(0, 0, 0, 0.2); }
+
+.InfoEnvioYRetiro {
+  display: flex;
+  justify-content: center; }
 
 .informacion_alig_estilo {
   padding: 20px; }
